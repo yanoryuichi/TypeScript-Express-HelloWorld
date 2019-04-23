@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     target: 'node',
     mode: 'development',
-    entry: path.resolve(__dirname, 'src/app.js'),
+    entry: path.resolve(__dirname, 'src/app.ts'),
     module: {
         rules: [
             {
